@@ -19,6 +19,9 @@
   </head>
 
   <body>
+    <!-------------------------------------------------------------->
+    <!-------------------------Navbar ------------------------------>
+    <!-------------------------------------------------------------->
     <nav class="flex-container bg-purple">
       <div class="flex-container ml-20">
         <img src="./images/slack-logo.png" alt="Slack logo" class="logo" />
@@ -58,7 +61,9 @@
         </ul>
       </div>
     </nav>
-
+    <!-------------------------------------------------------------->
+    <!-------------------------SECTION ONE ------------------------->
+    <!-------------------------------------------------------------->
     <header class="bg-purple flex-container-column">
       <div>
         <h1 class="text-white m-0 text-4xl text-center">
@@ -98,9 +103,11 @@
         />
       </div>
     </header>
-
+    <!-------------------------------------------------------------->
+    <!-------------------------SECTION TWO ------------------------->
+    <!-------------------------------------------------------------->
     <main class="bg-ivory">
-      <section>
+      <section class="mb-40">
         <p class="py-40 text-black-one text-bold text-center uppercase">
           <b>Trusted by companies all over the world</b>
         </p>
@@ -111,22 +118,26 @@
             alt="Airbnb logo"
             class="logo-2"
           />
-          <img src="./images/logo-nasa.png" alt="NASA logo" class="logo-3" />
+          <img
+            src="./images/logo-nasa.png"
+            alt="NASA logo"
+            class="logo-3 icon"
+          />
           <img src="./images/logo-uber.png" alt="Uber logo" class="logo-1" />
           <img
             src="./images/logo-target.png"
             alt="Target logo"
-            class="logo-2"
+            class="logo-3 icon"
           />
           <img
             src="./images/logo-nyt.png"
             alt="New York Times logo"
-            class="logo-1 m-20"
+            class="logo-1 mt-20"
           />
           <img
             src="./images/logo-spotify.png"
             alt="Spotify logo"
-            class="logo-1 m-20"
+            class="logo-1 mt-20 ml-20"
           />
         </div>
       </section>
@@ -136,12 +147,12 @@
           <img
             src="./images/connectedness-mobile.png"
             alt="connectedness"
-            class="picture neg-ml-10"
+            class="picture neg-ml-10 mb-40"
           />
         </div>
 
-        <div class="m-10">
-          <h2 class="text-bold">Bring your team together</h2>
+        <div class="m-10 mb-40">
+          <h2 class="text-bold text-3xl">Bring your team together</h2>
 
           <p>
             At the heart of Slack are channels: organized spaces for everyone
@@ -157,10 +168,19 @@
           </a>
         </div>
       </section>
-
+      <!-------------------------------------------------------------->
+      <!-------------------------SECTION THREE ----------------------->
+      <!-------------------------------------------------------------->
       <section>
-        <div class="m-10">
-          <h2 class="text-bold">Choose how you want to work</h2>
+        <div>
+          <img
+            src="./images/flexibility-mobile.png"
+            alt="flexibility"
+            class="picture neg-ml-5 mb-40"
+          />
+        </div>
+        <div class="m-10 mb-40">
+          <h2 class="text-bold text-3xl">Choose how you want to work</h2>
           <p>
             In Slack, you’ve got all the flexibility to work when, where and how
             it’s best for you. You can easily chat, send audio and video clips,
@@ -173,27 +193,23 @@
             >
           </a>
         </div>
-
-        <div>
-          <img
-            src="./images/flexibility-mobile.png"
-            alt="flexibility"
-            class="picture neg-ml-5"
-          />
-        </div>
       </section>
-
+      <!-------------------------------------------------------------->
+      <!-------------------------SECTION FOUR ------------------------>
+      <!-------------------------------------------------------------->
       <section>
         <div>
           <img
             src="./images/speed-mobile.png"
             alt="speed"
-            class="picture neg-ml-10"
+            class="picture neg-ml-10 mb-40"
           />
         </div>
 
-        <div class="m-10">
-          <h2 class="text-bold">Move faster with your tools in one place</h2>
+        <div class="m-10 mb-40">
+          <h2 class="text-bold text-2xl">
+            Move faster with your tools in one place
+          </h2>
           <p>
             With your other work apps connected to Slack, you can work faster by
             switching tabs less. And with powerful tools like Workflow Builder,
@@ -213,8 +229,8 @@
           Teams large and small rely on Slack
         </h3>
         <p class="m-10 text-center">
-          Slack securely scales up to support collaboration at the world’s
-          biggest companies.
+          Slack securely scales up to support <br />
+          collaboration at the world’s biggest companies.
         </p>
 
         <div class="m-10 flex-container-column">
@@ -231,26 +247,32 @@
           </button>
         </div>
 
-        <ul>
-          <li>
-            <p><span>85%</span></p>
-            <p>
+        <ul class="no-deco flex-container-column neg-ml-10">
+          <li class="box">
+            <p class="text-5xl text-bold text-purple text-center">
+              <span>85%</span>
+            </p>
+            <p class="text-center text-bold">
               of users say Slack has improved communication
               <sup>*</sup>
             </p>
           </li>
 
-          <li>
-            <p><span>86%</span></p>
-            <p>
+          <li class="box">
+            <p class="text-5xl text-bold text-purple text-center">
+              <span>86%</span>
+            </p>
+            <p class="text-center text-bold">
               feel their ability to work remotely has improved has improved
               <sup>*</sup>
             </p>
           </li>
 
-          <li>
-            <p><span>88%</span></p>
-            <p>
+          <li class="box">
+            <p class="text-5xl text-bold text-purple text-center">
+              <span>88%</span>
+            </p>
+            <p class="text-center text-bold">
               feel more connected to their teams*
               <sup>*</sup>
             </p>
@@ -258,19 +280,35 @@
         </ul>
       </section>
 
-      <section class="bg-white">
-        <h3>Welcome to your new digital HQ</h3>
+      <section class="bg-purple p-10 pb-50">
+        <h3 class="text-3xl text-bold text-white text-center p-10 pt-50">
+          Welcome to your new digital HQ
+        </h3>
 
-        <button>Try for free</button>
-        <button>Talk to sales</button>
+        <button
+          class="d-inline-block width-100 text-bold p-20 bg-purple text-white uppercase border-3 border-white"
+        >
+          Try for free
+        </button>
+        <button
+          class="d-inline-block width-100 text-bold p-20 mt-20 bg-white text-purple uppercase border-3 no-border"
+        >
+          Talk to sales
+        </button>
       </section>
     </main>
-
+    <!-------------------------------------------------------------->
+    <!-------------------------FOOTER ------------------------------>
+    <!-------------------------------------------------------------->
     <footer>
-      <img src="./images/iso-slack.png" alt="Slack logo" />
-      <div>
-        <ul>
-          <li>WHY SLACK?</li>
+      <img
+        src="./images/iso-slack.png"
+        alt="Slack logo"
+        class="logo-2 mt-50 p-40"
+      />
+      <div class="flex-container-left p-0">
+        <ul class="no-deco flex-container-column">
+          <li class="text-bold pb-20">WHY SLACK?</li>
           <li>Slack vs. Email</li>
           <li>Channels</li>
           <li>Engagement</li>
@@ -278,8 +316,8 @@
           <li>Watch the Demo</li>
         </ul>
 
-        <ul>
-          <li>PRODUCT</li>
+        <ul class="no-deco">
+          <li class="text-bold pb-20">PRODUCT</li>
           <li>Features</li>
           <li>Integrations</li>
           <li>Enterprise</li>
@@ -287,14 +325,14 @@
           <li>Releases</li>
         </ul>
 
-        <ul>
-          <li>PRICING</li>
+        <ul class="no-deco">
+          <li class="text-bold pb-20">PRICING</li>
           <li>Plans</li>
           <li>Paid vs. Free</li>
         </ul>
 
-        <ul>
-          <li>COMPANY</li>
+        <ul class="no-deco">
+          <li class="text-bold pb-20">COMPANY</li>
           <li>About Us</li>
           <li>Leadership</li>
           <li>Investor Relations</li>
@@ -303,8 +341,9 @@
           <li>Careers</li>
         </ul>
       </div>
+      <hr />
 
-      <ul>
+      <ul class="no-deco">
         <li>Status</li>
         <li>Privacy</li>
         <li>Terms</li>
@@ -316,7 +355,7 @@
 
       <hr />
 
-      <ul>
+      <ul class="flex-container no-deco">
         <li>
           <i class="fab fa-twitter"></i>
         </li>
@@ -332,7 +371,7 @@
       </ul>
 
       <div>
-        <small>
+        <small class="m-20">
           &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights
           reserved. Various trademarks held by their respective owners.
         </small>
