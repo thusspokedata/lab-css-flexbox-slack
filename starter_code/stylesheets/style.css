@@ -56,26 +56,6 @@ body {
   display: inline-block;
 }
 
-.bg-purple {
-  background: #540b51;
-}
-
-.bg-grey {
-  background: #454245;
-}
-
-.bg-blue {
-  background: #4285f4;
-}
-
-.bg-ivory {
-  background: #f3eae2;
-}
-
-.bg-white {
-  background: white;
-}
-
 .width-100 {
   width: 100%;
 }
@@ -104,46 +84,30 @@ body {
   width: auto;
 }
 
-.border-3 {
-  border-radius: 3px;
+/* ------------------------------------------------------ BACKGROUND ---------------------------------------------------------- */
+
+.bg-purple {
+  background: #540b51;
 }
 
-.no-border {
-  border-style: none;
+.bg-grey {
+  background: #454245;
 }
 
-.border-purple {
-  border-color: #540b51;
+.bg-blue {
+  background: #4285f4;
 }
 
-.border-white {
-  border-color: white;
+.bg-ivory {
+  background: #f3eae2;
 }
 
-.no-deco {
-  text-decoration: none;
-  list-style: none;
+.bg-white {
+  background: white;
 }
 
-.text-white {
-  color: white;
-}
 
-.text-yellow {
-  color: #ecb12f;
-}
-
-.text-purple {
-  color: #540b51;
-}
-
-.text-black-one {
-  color: #191817;
-}
-
-.text-blue-light {
-  color: #2e71a6;
-}
+/* ------------------------------------------------------ MARGINS ---------------------------------------------------------- */
 
 .m-0 {
   margin: 0px;
@@ -201,9 +165,52 @@ body {
   margin-left: -5px;
 }
 
+
+/* ------------------------------------------------------ BORDERS ---------------------------------------------------------- */
+
+.border-3 {
+  border-radius: 3px;
+}
+
+.no-border {
+  border-style: none;
+}
+
+.border-purple {
+  border-color: #540b51;
+}
+
+.border-white {
+  border-color: white;
+}
+
+
+/* ------------------------------------------------------ TEXT COLORS ---------------------------------------------------------- */
+
+
+.text-white {
+  color: white;
+}
+
+.text-yellow {
+  color: #ecb12f;
+}
+
+.text-purple {
+  color: #540b51;
+}
+
+.text-black-one {
+  color: #191817;
+}
+
+.text-blue-light {
+  color: #2e71a6;
+}
+
+/* ------------------------------------------------------ PADDING---------------------------------------------------------- */
+
 .py-40 {
-  /* padding-top: 40px;
-  padding-bottom: 40px; */
   padding: 40px 0px 40px 0px;
 }
 
@@ -240,6 +247,22 @@ body {
   padding-bottom: 50px;
 }
 
+
+/* ------------------------------------------------------ TEXT SIZES ---------------------------------------------------------- */
+
+
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.text-base {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
 .text-lg {
   font-size: 1.125rem; /* 18px */
   line-height: 1.75rem; /* 28px */
@@ -248,7 +271,6 @@ body {
   font-size: 1.25rem; /* 20px */
   line-height: 1.75rem; /* 28px */
 }
-
 .text-2xl {
   font-size: 1.5rem; /* 24px */
   line-height: 2rem; /* 32px */
@@ -261,11 +283,29 @@ body {
   font-size: 2.25rem; /* 36px */
   line-height: 2.5rem; /* 40px */
 }
-
 .text-5xl {
   font-size: 3rem; /* 48px */
   line-height: 1;
 }
+.text-6xl {
+  font-size: 3.75rem; /* 60px */
+  line-height: 1;
+}
+.text-7xl {
+  font-size: 4.5rem; /* 72px */
+  line-height: 1;
+}
+.text-8xl {
+  font-size: 6rem; /* 96px */
+  line-height: 1;
+}
+.text-9xl {
+  font-size: 8rem; /* 128px */
+  line-height: 1;
+}
+
+
+/* ------------------------------------------------------ TEXT POSITIONS ---------------------------------------------------------- */
 
 .text-center {
   text-align: center;
@@ -275,24 +315,22 @@ body {
   font-weight: bold;
 }
 
-.picture-center {
-  background-position: center;
-  background-position: 50% 50%;
-  /* background-size: cover; */
-  /* background-size: auto; */
-  background-size: contain;
-  background-repeat: space;
-}
-/* .picture {
-  background-position: center;
-  background-size: cover;
-  height: 400px;
-  margin-left: 250px;
-} */
-
 .uppercase {
   text-transform: uppercase;
 }
+
+.no-deco {
+  text-decoration: none;
+  list-style: none;
+}
+
+.picture-center {
+  background-position: center;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: space;
+}
+
 
 .icon {
   position: relative;
