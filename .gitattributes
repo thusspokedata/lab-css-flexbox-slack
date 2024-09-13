@@ -1,0 +1,5 @@
+# Exclude HTML, CSS, JavaScript, and Jupyter Notebook files from language statistics
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+*.ipynb linguist-vendored
